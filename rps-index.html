@@ -4,9 +4,39 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+
+        <div id="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+
+        <div id="game-board">
+            <div id="scoreboard">
+                <h2>Score Board</h2>
+                <div id="screen">
+                    <div class="score-box">Your Score: <span class="score">0</span></div>
+                    <div class="score-box">Computer Score: <span class="computer">0</span></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="Rock" class="big-button">
+                    <img src="./images/rock.png">
+                    <p>MF ROCK</p>
+                </button>
+                <button id="Paper" class="big-button">
+                    <img src="./images/paper.png">
+                    <p>PAPER SMACK</p>
+                </button>
+                <button id="Scissors" class="big-button">
+                    <img src="./images/scissors.png">
+                    <p>SCISSOR SNIP</p>
+                </button>
+            </div>
+        </div>
+
         <script src="rps-backend.js"></script>   
     </body>
 </html>
